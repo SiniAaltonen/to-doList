@@ -19,7 +19,7 @@ function Todo(props) {
       <h2>{props.text}</h2>
       <div className='actions'>
         <button className='btn' onClick={showModalHandler}>
-          Delete
+          Tehty
         </button>
       </div>
       {showModal && <Backdrop onClick={closeModalHandler} />}
