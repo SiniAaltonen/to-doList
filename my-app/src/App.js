@@ -5,7 +5,7 @@ function App() {
   const [choreList, setchoreList]=useState([{name:'Yrttien kasvatusalustan rakentaminen'}, {name: 'Maalaus Verso maalilla'}, {name: 'Mökin maalaus'}]);
   const [inputText, setinputText]=useState('');
   return (
-    <div style={{ display: 'flex', flexDirection: 'column' }}>
+    <div style={{ display: 'flex', flexDirection: 'column'}}>
       <h1>Salajärven mökin askareet:</h1>
       <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '10px', flexWrap: 'wrap', rowGap: '10px', columnGap: '10px'}}>
        {
