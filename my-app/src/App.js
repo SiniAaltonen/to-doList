@@ -6,7 +6,7 @@ function App() {
   const [inputText, setinputText]=useState('');
   return (
     <div style={{ display: 'flex', flexDirection: 'column'}}>
-      <h1>Salajärven mökin askareet:</h1>
+      <h1>Salajärven mökin työaskareet:</h1>
       <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '10px', flexWrap: 'wrap', rowGap: '10px', columnGap: '10px'}}>
        {
         choreList.map(item => (
