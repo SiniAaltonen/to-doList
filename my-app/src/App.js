@@ -7,7 +7,7 @@ function App() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column'}}>
       <h1>Salajärven mökin työaskareet:</h1>
-      <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '10px', flexWrap: 'wrap', rowGap: '10px', columnGap: '10px'}}>
+      <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '10px', flexWrap: 'wrap', rowGap: '10px', columnGap: '10px', width: '100%'}}>
        {
         choreList.map(item => (
           <div>
